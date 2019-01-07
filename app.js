@@ -1,4 +1,4 @@
-const form = document.getElementById('the-form-in-html');
+const form = document.querySelector('#the-form-in-html');
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
